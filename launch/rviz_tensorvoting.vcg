@@ -1,0 +1,56 @@
+Background\ ColorB=0
+Background\ ColorG=0
+Background\ ColorR=0
+Camera\ Config=1.1248 4.4653 62.0039 -3.76217 5.5669 -7.48268
+Camera\ Type=rviz::OrbitViewController
+Fixed\ Frame=/map
+Map.Alpha=0.7
+Map.Draw\ Behind=0
+Map.Enabled=0
+Map.Topic=/map
+PointCloud2..AxisColorAutocompute\ Value\ Bounds=1
+PointCloud2..AxisColorAxis=2
+PointCloud2..AxisColorMax\ Value=10
+PointCloud2..AxisColorMin\ Value=-10
+PointCloud2..AxisColorUse\ Fixed\ Frame=1
+PointCloud2..FlatColorColorB=1
+PointCloud2..FlatColorColorG=1
+PointCloud2..FlatColorColorR=1
+PointCloud2..IntensityAutocompute\ Intensity\ Bounds=1
+PointCloud2..IntensityChannel\ Name=stick
+PointCloud2..IntensityMax\ ColorB=0.054902
+PointCloud2..IntensityMax\ ColorG=0.0392157
+PointCloud2..IntensityMax\ ColorR=1
+PointCloud2..IntensityMax\ Intensity=28.1106
+PointCloud2..IntensityMin\ ColorB=0.980392
+PointCloud2..IntensityMin\ ColorG=0.482353
+PointCloud2..IntensityMin\ ColorR=0.215686
+PointCloud2..IntensityMin\ Intensity=0.36792
+PointCloud2..IntensityUse\ full\ RGB\ spectrum=0
+PointCloud2.Alpha=1
+PointCloud2.Billboard\ Size=0.1
+PointCloud2.Color\ Transformer=Intensity
+PointCloud2.Decay\ Time=0
+PointCloud2.Enabled=1
+PointCloud2.Position\ Transformer=XYZ
+PointCloud2.Queue\ Size=10
+PointCloud2.Selectable=1
+PointCloud2.Style=1
+PointCloud2.Topic=/point_cloud_sparsevoting
+Property\ Grid\ Splitter=689,78
+Property\ Grid\ State=expanded=.Global Options,.Global Status,Map.Enabled,PointCloud2.Enabled;splitterratio=0.5
+QMainWindow=000000ff00000000fd0000000300000000000001c500000351fc0200000001fb000000100044006900730070006c006100790073010000003600000351000000ee00ffffff000000010000013100000351fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730000000036000000db0000006700fffffffb0000000a00560069006500770073000000003600000220000000bb00fffffffb0000001200530065006c0065006300740069006f006e0000000036000003510000006700ffffff00000003000004d00000003efc0100000001fb0000000800540069006d00650100000000000004d0000002bf00ffffff000003050000035100000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+Target\ Frame=<Fixed Frame>
+Tool\ 2D\ Nav\ GoalTopic=/move_base_simple/goal
+Tool\ 2D\ Pose\ EstimateTopic=initialpose
+[Display0]
+ClassName=rviz::MapDisplay
+Name=Map
+[Display1]
+ClassName=rviz::PointCloud2Display
+Name=PointCloud2
+[Window]
+Height=1000
+Width=1234
+X=114
+Y=-373

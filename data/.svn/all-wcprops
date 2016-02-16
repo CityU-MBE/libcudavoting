@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/nifti/!svn/ver/6253/code/ros/stacks/nifti_mapping/trunk/tensorvoting/data
+END
+Curveplane.vtk
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/nifti/!svn/ver/6253/code/ros/stacks/nifti_mapping/trunk/tensorvoting/data/Curveplane.vtk
+END
+planes2.vtk
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/nifti/!svn/ver/6253/code/ros/stacks/nifti_mapping/trunk/tensorvoting/data/planes2.vtk
+END
+winter_sparse.vtk
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/nifti/!svn/ver/6253/code/ros/stacks/nifti_mapping/trunk/tensorvoting/data/winter_sparse.vtk
+END
+planes4.vtk
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/nifti/!svn/ver/6253/code/ros/stacks/nifti_mapping/trunk/tensorvoting/data/planes4.vtk
+END
+outputSparse.vtk
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/nifti/!svn/ver/6253/code/ros/stacks/nifti_mapping/trunk/tensorvoting/data/outputSparse.vtk
+END
+floorMap.vtk
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/nifti/!svn/ver/6253/code/ros/stacks/nifti_mapping/trunk/tensorvoting/data/floorMap.vtk
+END
+output_0.5_cpu_voting.vtk
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/nifti/!svn/ver/6253/code/ros/stacks/nifti_mapping/trunk/tensorvoting/data/output_0.5_cpu_voting.vtk
+END
+sparseFloor.vtk
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/nifti/!svn/ver/6253/code/ros/stacks/nifti_mapping/trunk/tensorvoting/data/sparseFloor.vtk
+END
+output.vtk
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/nifti/!svn/ver/6253/code/ros/stacks/nifti_mapping/trunk/tensorvoting/data/output.vtk
+END

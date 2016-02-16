@@ -1,0 +1,19 @@
+<package>
+  <description brief="tensorvoting">
+
+     tensorvoting
+
+  </description>
+  <author>ming</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/tensorvoting</url>
+  <depend package="roscpp"/>
+  <depend package="libpointmatcher_ros"/>
+  <depend package="libpointmatcher"/>
+<!--	<rosdep name="stack-gpgpu"/> -->
+<!--  <depend package="cuda"/> -->
+
+</package>
+
+

@@ -1,0 +1,18 @@
+<launch>
+    <!-- <node name="VtkToCloud" pkg="ethzasl_point_cloud_vtk_tools" type="vtkToPointCloud" args="$(find tensorvoting)/data/planes2.vtk" output="screen"/>
+    -->
+    <node name="VtkToCloud" pkg="ethzasl_point_cloud_vtk_tools" type="vtkToPointCloud" output="screen">
+        <param name="singleFile" type="string" value="$(find tensorvoting)/data/planes4.vtk"/> 
+        <!-- <param name="singleFile" type="string" value="$(find tensorvoting)/data/winter_sparse.vtk"/> -->
+    </node>
+    <node name="demo_dense_gpu" pkg="tensorvoting" type="demo_dense_gpu">
+        <param name="sigma" value="1.5"/>
+        <param name="cell_size" value="1.0"/>
+        <param name="halfwindow" value="1.0"/>
+        <param name="cloudTopicIn" value="/point_cloud"/>
+        <param name="cloudTopicOut" value="/point_cloud_densevoting"/>
+        <param name="mapFrameId" value="/map"/>
+        <param name="savevtk" value="false"/>
+    </node>
+    <node pkg="rviz" type="rviz" output="screen" name="rviz" args="-d $(find tensorvoting)/launch/rviz_tensorvoting.rviz" />
+</launch>

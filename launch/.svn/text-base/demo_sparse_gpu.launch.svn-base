@@ -1,0 +1,11 @@
+<launch>
+    <node name="VtkToCloud" pkg="modular_cloud_matcher" type="vtkToPointCloud" args="$(find tensorvoting)/data/planes2.vtk"
+    output="screen"/>
+    <node name="demo_sparse_gpu" pkg="tensorvoting" type="demo_sparse_gpu">
+        <param name="sigma" value="1.5"/>
+        <param name="cloudTopicIn" value="/point_cloud"/>
+        <param name="cloudTopicOut" value="/point_cloud_sparsevoting"/>
+        <param name="mapFrameId" value="/map"/>
+        <param name="savevtk" value="false"/>
+    </node>
+</launch>

@@ -1,0 +1,22 @@
+\begin{thebibliography}{1}
+
+\bibitem{liu12robio}
+Ming Liu, Francois Pomerleau, Francis Colas, and Roland Siegwart.
+\newblock {Normal Estimation for Pointcloud using GPU based Sparse Tensor
+  Voting}.
+\newblock In {\em IEEE Int. Conf. on Robotics and Biomimetics (ROBIO)}, 2012.
+
+\bibitem{mordohai2006tensor}
+P.~Mordohai and G.~Medioni.
+\newblock Tensor voting: a perceptual organization approach to computer vision
+  and machine learning.
+\newblock {\em Synthesis Lectures on Image, Video, and Multimedia Processing},
+  2(1):1--136, 2006.
+
+\bibitem{schuster2004segmentation}
+H.F. Schuster.
+\newblock Segmentation of lidar data using the tensor voting framework.
+\newblock {\em International Archives of Photogrammetry, Remote Sensing and
+  Spatial Information Sciences}, 35:1073--1078, 2004.
+
+\end{thebibliography}
