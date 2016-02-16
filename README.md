@@ -1,7 +1,7 @@
 # libcudavoting
 A library for tensor voting on 3D point-clouds using GPU (NVIDIA). 
 
-Please see the full readme file at: [HERE](libcudavoting/doc/gpu_tv_note.pdf)
+Please see the full readme file at: [HERE](doc/gpu_tv_note.pdf)
 
 If you are interested in the library and its application, please feel free to cite the following two papers:
 
